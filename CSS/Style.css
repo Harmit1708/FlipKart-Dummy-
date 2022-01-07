@@ -1,0 +1,386 @@
+/* Bootstrap icon imort url */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* Nav Bar */
+nav{
+    min-width: 800px;
+}
+h5{
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+    font-style:italic;
+    font-weight:bold;
+    margin: 0 auto;
+    float: left;
+    color: white;
+}
+span{
+    color: white;
+}
+.navbar > h5 > a > mark{
+    background-color:transparent;
+    color: #c6c73d;
+}
+
+.navbar > h5 > a{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+input[type="search"]{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 5px;
+    font-size:16px;
+    height: 35px;
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+input[type="search"]::placeholder{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 115px;
+}
+
+i{
+    padding-right:15px;
+    color: blue;
+}
+
+.cart{
+    color: white;
+    margin-right:-10px;
+}
+
+
+/* Items */
+.items{
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+.items > div > a {
+    margin: 0 auto;
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+}
+
+.items > div > a:hover{
+    font-weight:bold;
+    text-decoration: none;
+    color: blue;
+}
+
+img{
+    height:100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+/* Pagination */
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-item > img{
+    height:350px;
+}
+
+
+/* Products */
+.btn{
+    float: right;
+}
+
+.product{
+    min-width: 800px;
+}
+.product > .bg-light > div >  h2{
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+#time{
+    color: black;
+}
+
+.products > div >   p{
+    color: black;
+}
+
+.products > div > a{
+    text-decoration:none;
+    color: black;
+    resize:horizontal;
+}
+
+.products > div > img{
+    height:200px;
+    width:200px;
+}
+
+.products > div > img:hover{
+    height:205px;
+    width:205px;
+}
+
+#advertise > img{
+    height:300px;
+    width: 280px;
+}
+
+#advertise > img:hover{
+    height:300px;
+    width: 280px;
+}
+
+
+/* Top fashion styles */
+.fashion{
+    margin-top:10px;
+}
+.fashion > .bg-light > div >  h2{
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+.fashions > div >   p{
+    color: black;
+}
+
+.fashions > div > a{
+    text-decoration:none;
+    color: black;
+}
+
+.fashions > div > img{
+    height:200px;
+    width:200px;
+}
+
+.fashions > div > img:hover{
+    height:205px;
+    width:205px;
+}
+
+
+/* Home */
+.home{
+    margin-top:10px;
+}
+.home > .bg-light > div >  h2{
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+.house > div >   p{
+    color: black;
+}
+
+.house > div > a{
+    text-decoration:none;
+    color: black;
+}
+
+.house > div > img{
+    height:200px;
+    width:200px;
+}
+
+.house > div > img:hover{
+    height:205px;
+    width:205px;
+}
+
+/* mobile */
+.mobile{
+    margin-top:10px;
+}
+.mobiles > img {
+    padding-right: 5px;
+    height:500px;
+    width: 600px;
+}
+
+/* Bettery phones */
+.phonesb{
+    margin-top:10px;
+}
+.phonesb > .bg-light > div >  h2{
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+.betteryphone > div >   p{
+    color: black;
+}
+
+.betteryphone > div > a{
+    text-decoration:none;
+    color: black;
+}
+
+.betteryphone > div > img{
+    height:200px;
+    width:200px;
+}
+
+.betteryphone > div > img:hover{
+    height:205px;
+    width:205px;
+}
+
+/* Top pics n men clothes */
+.men{
+    margin-top:10px;
+}
+.men > .bg-light > div >  h2{
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+.clothes > div >   p{
+    color: black;
+}
+
+.clothes > div > a{
+    text-decoration:none;
+    color: black;
+}
+
+.clothes > div > img{
+    height:200px;
+    width:200px;
+}
+
+.clothes > div > img:hover{
+    height:205px;
+    width:205px;
+}
+
+
+/* details */
+.details {
+    color: grey;
+    margin-top:35px;
+    padding-left: 20px;
+}
+
+.details > div> h5 {
+    color: black;
+}
+
+.details > div > p{
+    float: left;
+    font-size:12px;
+    color: gray;
+}
+
+.h5{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.h5 > .title{
+    font-size:14px;
+    font-weight:bold;
+    color: darkgrey;
+}
+
+
+/* Footer */
+.main > .footerContent{
+    background-color: #172337;
+    color: white;
+    padding-bottom: 80px;
+}
+.footerContent > div{
+    display: flex;
+    gap: 1.5em;
+    padding-top: 50px;
+}
+.footer > a{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    margin-left: 80px;
+}
+.footer > a:hover{
+    color: white;
+}
+
+.footer > p{
+    display: flex;
+    color: #868686;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.footer > .para{
+    color: white;
+    display: flex;
+    flex-direction:column;
+}
+
+.vl{
+    border-left: 1px solid darkgrey;
+    height: 190px;
+    margin-left: 50px;
+}
+hr{
+    color: white;
+}
+
+.ad{
+    display: flex;
+    background-color:#172337;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.ad > div > p {
+    color: white;
+}
+
+.ad > div > a{
+    color: white;
+}
+.ad > div > i {
+
+    color:yellow;
+}
+
+.hl{
+    border: 0.5px solid darkgrey;
+    background-color: #172337;
+}
+
+.ad > div > img {
+    background-color:white;
+    border-radius: 5px;
+    margin-left:5px;
+    height:35px;
+    width:40px;
+    padding: 5px;
+}
